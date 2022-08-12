@@ -5,7 +5,7 @@ const obtenerLibro=(req,res)=>{
     return res.json({
         status: true,
         msg: "Libros   obtenidos",
-        data: libros,
+        data:libros,
     } )
 }
 const crearLibro=(req,res)=>{

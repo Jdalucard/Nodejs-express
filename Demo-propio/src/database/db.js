@@ -15,11 +15,12 @@ const libros=[{
     id:'1',
     title:'el señor de los anillos',
     year:'2001',
-    autor :'Gabriel garcia'
+    autor :'la comunidad del anillo'
 
 }]
 
-return module.exports={
+ return module.exports={
     users,
-    peliculas
+    peliculas,
+    libros
 }
