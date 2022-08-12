@@ -4,7 +4,22 @@ const users=[{
     password:'hola123'
 
 }]
+const peliculas=[{
+    id:'1',
+    title:'el señor de los anillos',
+    year:'2001',
+    price:45
+}]
+
+const libros=[{
+    id:'1',
+    title:'el señor de los anillos',
+    year:'2001',
+    autor :'Gabriel garcia'
+
+}]
 
 return module.exports={
-    users
+    users,
+    peliculas
 }
