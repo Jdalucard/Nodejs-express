@@ -49,7 +49,7 @@ const borrarPelicula = (req, res) => {
   const { idPelicula } = req.params;
 
   const eliminarPelicula = peliculas.find((pelicula) => {
-    return users.id === idPelicula;
+    return pelicula.id === idPelicula;
   });
   peliculas.splice(peliculas.indexOf(eliminarPelicula),1)
   

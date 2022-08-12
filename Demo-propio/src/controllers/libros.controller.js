@@ -53,7 +53,7 @@ const eliminarLibro=(req,res)=>{
 const {idLibro}=req.params;
 
 const borrarLibro=libros.find((libro)=>{
-    return libros.id===idLibro
+    return libro.id===idLibro
 });
 libros.splice(libros.indexof(borrarLibro),1);
 
